@@ -22,11 +22,10 @@
     --item-nb: 0;
     --selected-item: 0;
     --nb-turn: 5;
-    --spinning-duration: 4s;
+    --spinning-duration: 10s;
     --reset-duration: 0.25s;
 }
 
-/* Conteneur de la roue = cercle rose extérieur */
 .wheel-container {
     display: block;
     position: relative;
@@ -41,7 +40,6 @@
     user-select: none;
 }
 
-/* Triangle de sélection = 1 rose +  1 blanc */
 .wheel-container::before,
 .wheel-container::after {
     content: '';
