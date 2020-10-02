@@ -3,7 +3,7 @@ import Wheel from "../components/Wheel"
 import Sound from "react-sound"
 
 
-const people = ['Oliver', 'Fiona', 'Sana', 'Mike', 'Kelly'];
+const people = ['Oliver', 'Fiona', 'Sana', 'Mike', 'Andy'];
 
 export default function App() {
 
